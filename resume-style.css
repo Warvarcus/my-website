@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(255, 255, 240);
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Arial, sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    color: navy;
+    margin: 2rem 2rem 1rem 2rem;
+    font-size: 4rem;
+}
+
+h2 {
+    width: 100%;
+    color: navy;
+    margin: 1rem 2rem 2rem 2rem;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 0.5rem 0 0 5rem;
+}
+
+.intro {
+    margin-bottom: 3rem;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+div li {
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+div .section {
+    margin-right: 5rem;
+    width: 500px;
+    height: fit-content;
+}
+
+p, li {
+    line-height: 1.5rem;
+}
+
+
+.a, .b, .c, .d {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid navy;
+}
+
+.b {
+    width: 500px;
+    margin: 1rem 0 1rem 2rem;
+}
+
+.c {
+    margin-top: 3rem;
+}
+
+.d {
+    width: 500px;
+    margin-top: 3rem;
+}
+
+.skills li {
+    margin: 0 0 0.3rem 0;
+}
